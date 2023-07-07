@@ -3,7 +3,7 @@ import Image from "next/image";
 const ComingSoon = () => {
     return(
         <main>
-            <div className="relative h-screen bg-gray-200">
+            <div className="relative h-screen bg-gray-100">
                 {/* Text */}
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-gray-900 font-sans text-center">
                 <h3 className="text-lg sm:text-2xl">Coming Soon</h3>
