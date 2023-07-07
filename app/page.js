@@ -1,9 +1,9 @@
-import Image from 'next/image'
+import ComingSoon from "@/components/soon"
 
 export default function Home() {
   return (
     <main>
-      <Hero />
+      <ComingSoon />
     </main>
   )
 }
