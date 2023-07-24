@@ -8,7 +8,7 @@ const Services = () => {
                 <h3 className='text-slate-950 text-2xl py-4 font-bold'>Servicing residents and businesses across all
                 provinces and in all major cities around Southern Africa.</h3>
             </div>
-            <div className='flex justify-center'>
+            <div className='block sm:flex justify-center'>
                 <div className='m-2 border drop-shadow-md'>
                     <Image
                         src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/1.jpg?alt=media&token=c8c12ca5-8a6b-4c8c-98dd-40d08be98e2f'
@@ -37,7 +37,7 @@ const Services = () => {
                 </div>
                 </div>
             </div>
-            <div className='flex justify-center'>
+            <div className='block sm:flex justify-center'>
                 <div className='m-2 border drop-shadow-md'>
                     <Image
                         src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/3.jpg?alt=media&token=4e99fea7-f98b-4564-9345-27069c1163ec'

@@ -16,7 +16,7 @@ const Protection = () => {
         <h4 className='text-slate-950 text-4xl pt-4 font-bold'>We Care About Your Safety</h4>
       </div>
       <div className='pt-2 relative z-20'>
-        <div className='px-2 py-4 flex justify-center items-center'>
+        <div className='px-2 py-4 block sm:flex justify-center items-center'>
           <div className='text-center px-2'>
             <div className='flex justify-center'>
               <div>
