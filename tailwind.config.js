@@ -6,11 +6,28 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    maxWidth: {
+      '250': '250px',
+      '300': '300px',
+      '320': '320px',
+      '370': '370px',
+      '500': '500px',
+      '600': '600px',
+      '700': '700px',
+    },
+    minHeight: {
+      '300': '300px',
+      '400': '400px',
+    },
+    maxHeight: {
+      '500': '500px',
+      '700': '700px',
+    },
     extend: {
-      backgroundImage: {
-        
-      },
+
     },
   },
-  plugins: [],
-}
+  plugins: [
+    
+  ],
+};
