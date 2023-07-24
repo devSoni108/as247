@@ -1,5 +1,3 @@
-import { motion, AnimatePresence } from 'framer-motion';
-
 import Hero from "@/components/Hero"
 import Protection from "@/components/Protection"
 import Brands from "@/components/Brands"
@@ -12,35 +10,14 @@ import Footer from "@/components/Footer"
 export default function Home() {
   return (
     <main>
-      <AnimatePresence mode='wait'>
-        <motion.div
-          key={router.route}
-          initial="initialState"
-          animate="animateState"
-          exit="exitState"
-          transition={{
-            duration: 0.75,
-          }}
-          variants={{
-            initialState: {
-              opacity: 0,
-            },
-            animateState: {
-              opacity: 1,
-            },
-            exitState: {
-            },
-          }}>
-          <Hero />
-          <Protection />
-          <Brands />
-          <Services />
-          <Testimonials />
-          <FAQ />
-          <CTA />
-          <Footer />
-        </motion.div>
-      </AnimatePresence>
+      <Hero />
+      <Protection />
+      <Brands />
+      <Services />
+      <Testimonials />
+      <FAQ />
+      <CTA />
+      <Footer />
     </main>
   )
 }
