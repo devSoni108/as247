@@ -26,9 +26,9 @@ const Services = () => {
                 <div className='m-2 border drop-shadow-md'>
                     <Image
                         src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/2.jpg?alt=media&token=e514b504-463d-40dc-afcf-6c70de324393'
+                        alt='secure and protect'
                         width={400}
                         height={400}
-                        className=''
                         loading="lazy"
                     />
                 <div className='py-4 px-6'>
@@ -44,7 +44,6 @@ const Services = () => {
                         alt='security consulting'
                         width={400}
                         height={400}
-                        className=''
                         loading="lazy"
                     />
                     <div className='py-4 px-6'>
@@ -55,9 +54,9 @@ const Services = () => {
                 <div className='m-2 border drop-shadow-md'>
                     <Image
                         src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/4.jpg?alt=media&token=9045db50-53e3-43a2-9616-80b5e76f9a0f'
+                        alt='security south africa'
                         width={400}
                         height={400}
-                        className=''
                         loading="lazy"
                     />
                 <div className='py-4 px-6'>

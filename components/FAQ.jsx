@@ -3,7 +3,7 @@ const FAQ = () => {
         <div>
             <div className='px-2 sm:px-16 text-center'>
                 <h3 className='text-lg font-bold text-blue-950 uppercase pt-8'>Frequently asked questions</h3>
-                <h4 className='text-slate-950 text-4xl font-bold pt-2'>Need some more information?<br/>Have a look at our FAQ's below.</h4>
+                <h4 className='text-slate-950 text-4xl font-bold pt-2'>Need some more information?<br/>Have a look at our frequently asked questions below.</h4>
             </div>
             <div className="p-8 flex justify-center max-w-700 mx-auto">
                 <div className="border-slate-900">

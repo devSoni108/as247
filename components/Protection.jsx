@@ -49,7 +49,7 @@ const Protection = () => {
             </div>
             <h4 className='font-bold pb-4'>Protect</h4>
             <div className='py-0.5 bg-blue-600 w-20 mx-auto'/>
-            <p className='pt-4 text-sm max-w-320'>We prioritize the safety and security of everything that holds value to you, whether it's your loved ones, business,  or any cherished aspect of your life.</p>
+            <p className='pt-4 text-sm max-w-320'>We prioritize the safety and security of everything that holds value to you, whether it is your loved ones, business,  or any cherished aspect of your life.</p>
           </div>
           <div className='text-center px-2'>
             <div className='flex justify-center'>
