@@ -6,7 +6,7 @@ const Hero = () => {
     <section className='overflow-hidden'>
       <div style={{ position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <Image
-          src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/hero.jpg?alt=media&token=9173c033-8cab-4519-9f25-3caddb80f463'
+          src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/hero-2.jpg?alt=media&token=327c133b-726a-48f8-9c9e-ad82d35af9d2'
           alt='Security solutions'
           width={1920}
           height={400}
