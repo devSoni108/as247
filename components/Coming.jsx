@@ -9,7 +9,7 @@ const Soon = () => {
                 <h3 className="text-lg sm:text-2xl">Coming Soon</h3>
                 <h2 className="text-4xl sm:text-6xl p-4 font-bold drop-shadow-md">
                     <Image
-                        src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/Lgo.png?alt=media&token=f85ee00a-ed5a-46a9-a5e4-3238a6e107ed"
+                        src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/Lgo.png?alt=media&token=6385852c-bf22-4508-b333-2cf4466c4517"
                         alt="AS247 Security"
                         width={200}
                         height={200}
