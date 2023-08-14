@@ -1,9 +1,9 @@
-import ComingSoon from "@/components/Soon"
+import Soon from "@/components/Coming"
 
 export default function Home() {
   return (
     <main>
-      <ComingSoon />   
+       <Soon />
     </main>
   )
 }
