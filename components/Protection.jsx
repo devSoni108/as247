@@ -2,18 +2,10 @@ import Image from 'next/image';
 
 const Protection = () => {
   return (
-    <div className='px-4 py-4 sm:p-8 text-center' style={{ position: 'relative' }}>
-      <Image
-        src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/mesh-bg.png?alt=media&token=4bbc6235-0ab1-4d9c-958e-c303b0e700e7'
-        alt='Security solutions'
-        width={1920}
-        height={400}
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '400px', objectFit: 'cover', objectPosition: 'center' }}
-        loading="lazy"
-      />
-      <div className='px-2 sm:px-16 text-white relative z-10'>
-        <h3 className='text-lg font-bold text-blue-950 uppercase'>The Protection You Need</h3>
-        <h4 className='text-slate-950 text-4xl pt-4 font-bold'>We Care About Your Safety</h4>
+    <div className='px-4 py-4 sm:p-8 text-center text-white' style={{ position: 'relative', background: '#09254d' }}>      
+      <div className='px-2 sm:px-16 relative z-10 font-bold'>
+        <h3 className='text-lg uppercase'>The Protection You Need</h3>
+        <h4 className='text-4xl pt-4'>We Care About Your Safety</h4>
       </div>
       <div className='pt-2 relative z-20'>
         <div className='px-2 py-4 block sm:flex justify-center items-center'>
