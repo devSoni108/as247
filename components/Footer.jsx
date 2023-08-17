@@ -15,7 +15,7 @@ const Footer = () => {
                     />
                 </div>
             </div>
-            <div className='p-2 text-white font-thin text-sm text-center bg-gray-700'>
+            <div className='p-2 text-white font-thin text-sm text-center bg-blue-950'>
                 <p>AS247Security @ 2023. All rights reserved.</p>
             </div>
         </div>

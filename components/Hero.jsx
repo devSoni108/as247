@@ -6,7 +6,7 @@ import { GiMovementSensor, GiCctvCamera } from "react-icons/gi"
 
 const Hero = () => {
   return (
-    <section className='overflow-hidden relative'>
+    <section className='overflow-hidden -mt-16'>
       <div
         style={{
           position: 'relative',
@@ -19,15 +19,14 @@ const Hero = () => {
           src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/hero.jpg?alt=media&token=495985f6-bf5b-4f8e-a2c3-d888311953b8'
           alt='Security solutions'
           width={1920}
-          height={430}
+          height={600}
           style={{
             width: '100%',
-            height: '430px',
+            height: '600px',
             objectFit: 'cover',
             objectPosition: 'center',
             zIndex: -1, // Set the image to be beneath other content
           }}
-          loading="lazy"
         />
         {/* Gradient Overlay */}
         <div
@@ -54,15 +53,15 @@ const Hero = () => {
             color: 'white',
           }}
         >
-          <div className='max-w-700 mx-auto px-4 sm:px-8'>
-            <h1 className='pt-4 text-2xl md:text-3xl font-semibold uppercase drop-shadow-sm'>Security Solutions</h1>
+          <div className='max-w-700 mx-auto px-4 sm:px-8 pt-24'>
+            <h1 className='text-2xl md:text-3xl font-semibold uppercase drop-shadow-sm'>Security Solutions</h1>
             <h2 className='pt-2 text-sm md:text-lg drop-shadow-sm font-light md:font-normal'>Your safety, Our solutions.</h2>
-            <div className='text-xs md:text-sm pt-14 font-extralight'>
+            <div className='text-xs md:text-sm pt-10 font-extralight text-gray-300'>
               <ul>
                 <li className='flex items-center justify-end pt-4'>
                   Parameter Security
                   <span className='px-2'>
-                    <MdElectricBolt className='border p-0.5 rounded' size={25} />
+                    <MdElectricBolt className='border p-0.5 rounded border-gray-300' size={25} />
                   </span>
                 </li>
                 <li className='flex items-center justify-start pt-4'>
@@ -85,9 +84,9 @@ const Hero = () => {
                 </li> 
               </ul>  
             </div>
-            <div className='pt-20'>
-              <Link href='/contact' passHref>
-                <button className='px-3 py-1 text-xs text-white font-semibold rounded border hover:text-white hover:bg-blue-950 hover:border-blue-950 uppercase md:px-4 md:py-2 drop-shadow-sm ease-in-out duration-200'>Learn More</button>
+            <div className='pt-16'>
+              <Link href='/solutions' passHref>
+                <button className='px-3 py-1 text-xs text-white font-semibold rounded border hover:font-bold hover:text-blue-950 hover:bg-white hover:border-white uppercase md:px-4 md:py-2 drop-shadow-sm ease-in-out duration-200'>Learn More</button>
               </Link>
             </div>
           </div>

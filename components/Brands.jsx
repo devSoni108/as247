@@ -2,10 +2,10 @@ import Image from 'next/image';
 
 const Brands = () => {
     return (
-        <div className='p-4 text-center bg-gradient-to-t from-sky-500 to-sky-950 text-white'>
+        <div className='py-8 text-center bg-blue-950 text-white'>
             <div>
-                <h2 className='text-sm uppercase pt-4 font-semibold'>You are in good company</h2>
-                <h3 className='p-2 font-bold text-2xl'>We partner with industry leading brands</h3>
+                <h2 className='pb-2 text-sm md:text-lg drop-shadow-sm font-semibold'>You are in good company</h2>
+                <h3 className='text-2xl md:text-3xl font-semibold uppercase drop-shadow-sm'>We partner with industry leading brands</h3>
                 <p className='p-2 text-sm max-w-700 mx-auto '>AS247 Security Solutions partners with industry-trusted and renowned brands, ensuring top-quality solutions for our clients.  By aligning ourselves with these esteemed brands, we can deliver unparalleled security solutions that are built on expertise, reliability, and industry leadership.</p>
             </div>
             <div className='flex justify-evenly items-center'>
