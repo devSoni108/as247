@@ -8,6 +8,7 @@ const Hero = () => {
   return (
     <section className='overflow-hidden -mt-16'>
       <div
+        className='overflow-hidden '
         style={{
           position: 'relative',
           display: 'flex',

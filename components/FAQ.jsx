@@ -1,6 +1,6 @@
 const FAQ = () => {
     return (
-        <div className="text-blue-950 py-8">
+        <div className="text-blue-950 py-8 overflow-hidden">
             <div className='px-2 sm:px-16 text-center'>
                 <h3 className='pb-2 text-sm md:text-lg drop-shadow-sm font-semibold'>Frequently asked questions</h3>
                 <h4 className='text-2xl md:text-3xl font-semibold uppercase drop-shadow-sm'>Need some more information?<br/>Have a look at our FAQ&apos;s below.</h4>
