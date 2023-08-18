@@ -49,7 +49,7 @@ const Solutions = () => {
                         <h4 className='font-semibold text-xl pb-1'>Monitored Alarm Systems: Fortifying Your Security Strategy</h4>
                         <p className='text-sm'>Alarm systems stand as the cornerstone of modern security, providing an active and vigilant shield against potential threats. By seamlessly integrating advanced technologies, such as motion sensors for both indoor and outdoor spaces, alarm systems offer a robust defense that deters, detects, and responds to intrusions.</p>
                         <h5 className='font-semibold pt-2'>Complete Protection Inside and Out</h5>
-                        <p className='text-sm'>An alarm system goes beyond mere surveillance; it's a proactive guardian of your peace of mind. With a network of sensors and detectors strategically placed, these systems create an intelligent barrier that safeguards your property and loved ones:</p>
+                        <p className='text-sm'>An alarm system goes beyond mere surveillance; it&apos;s a proactive guardian of your peace of mind. With a network of sensors and detectors strategically placed, these systems create an intelligent barrier that safeguards your property and loved ones:</p>
                     </div>
                     <div>
                         <Image
@@ -85,7 +85,7 @@ const Solutions = () => {
                         <h4 className='font-semibold text-xl pb-1'>Access Control: Redefining Security Through Intelligent Gateways</h4>
                         <p className='text-sm'>In an era where security is paramount, access control emerges as the guardian of modern spaces. By combining cutting-edge technology with intuitive control mechanisms, access control systems introduce a new paradigm of security, one that goes beyond traditional locks and keys.</p>
                         <h5 className='font-semibold pt-2'>Empowering Precision Control</h5>
-                        <p className='text-sm'>Access control is the key to precision security management. Whether it's a business premise, residential complex, or a sensitive facility, these systems ensure that only authorized individuals have entry, significantly reducing the risk of unauthorized access.</p>
+                        <p className='text-sm'>Access control is the key to precision security management. Whether it&apos;s a business premise, residential complex, or a sensitive facility, these systems ensure that only authorized individuals have entry, significantly reducing the risk of unauthorized access.</p>
                     </div>
                     <div>
                         <Image
