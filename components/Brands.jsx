@@ -63,7 +63,7 @@ const Brands = () => {
                 </div>
                 <div>
                     <Image
-                        src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/paradox-security.png?alt=media&token=3aea8a06-5b74-4720-8b45-69a64b4892d6"
+                        src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/paradox-security.png?alt=media&token=ed443bc9-5620-4675-9013-bc260ddde74a"
                         alt='Paradox security'
                         width={400}
                         height={200}

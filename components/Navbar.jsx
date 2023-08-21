@@ -39,7 +39,9 @@ const Navbar = () => {
     }
   }, []);
 
-  const mobileMenuClass = isMobileMenuOpen ? 'absolute top-0 left-0 right-0 bottom-0' : 'absolute top-0 left-[-100%]';
+  const mobileMenuClass = isMobileMenuOpen
+  ? 'fixed top-0 left-0 right-0 bottom-0 h-screen flex justify-center items-center'
+  : 'absolute top-0 left-[-100%] h-screen flex justify-center items-center';
 
   return (
     <div style={{ backgroundColor }} className={`w-full z-50 ease-in duration-300 uppercase fixed top-0 left-0 ${isScrolled ? 'py-0' : 'py-1'}`}>
