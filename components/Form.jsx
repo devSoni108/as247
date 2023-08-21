@@ -3,7 +3,7 @@ const Form = () => {
     return (
       <div className="px-4 sm:px-56 pt-2 pb-10">
         <div className="rounded-lg isolate p-8 border-gray-300 border shadow-md text-blue-950">
-          <form name='contact' method="post" data-netlify='true' className="mx-auto max-w-xl">
+          <form name='contact' netlify method="post" data-netlify='true' className="mx-auto max-w-xl">
             <input type="hidden" name="form-name" value="contact" />
             <div className="sm:col-span-2">
               <div>
