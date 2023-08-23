@@ -9,14 +9,18 @@ export const metadata = {
   description: 'Your safety, our solutions',
 }
 
-export default function RootLayout({ children }) {
+function RootLayout({ children }) {
+  
   return (
     <html lang="en">
-      <Navbar />
-      <body>
-        {children}
-      </body>
-    </html>
-    
+      <main>
+        <Navbar />
+        <body>
+          {children}
+        </body>
+      </main>
+    </html> 
   )
 }
+
+export default RootLayout
