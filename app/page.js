@@ -1,4 +1,5 @@
 "use client";
+import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero"
 import Protection from "@/components/Protection"
 import Brands from "@/components/Brands"
@@ -34,6 +35,7 @@ const Welcome = () => {
                     exitState: {
                     },
                 }}>
+                    <Navbar />
                     <Hero />
                     <Protection />
                     <Brands />

@@ -1,5 +1,6 @@
 "use client";
 import Image from 'next/image'
+import Navbar from '@/components/Navbar';
 import CTA from '@/components/CTA'
 import Footer from '@/components/Footer'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -28,6 +29,7 @@ const Solutions = () => {
                     exitState: {
                     },
                 }}>
+                    <Navbar />
             {/* Header */}
                     <header className="bg-blue-950 py-16 text-white text-center">
                         <h1 className="text-5xl py-10">Our Services</h1>

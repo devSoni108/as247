@@ -1,4 +1,5 @@
 "use client";
+import Navbar from '@/components/Navbar';
 import { FaMapMarkerAlt, FaClock, FaUser } from 'react-icons/fa';
 import Form from '@/components/Form';
 import Footer from '@/components/Footer';
@@ -11,25 +12,26 @@ const Contact = () => {
     <main className='overflow-hidden'>
       <AnimatePresence mode='wait'>
         <motion.div
-                key={pathname}
-                initial="initialState"
-                animate="animateState"
-                exit="exitState"
-                transition={{
-                    duration: 0.75,
-                }}
-                variants={{
-                    initialState: {
-                    opacity: 0,
-                    },
-                    animateState: {
-                    opacity: 1,
-                    },
-                    exitState: {
-                    },
-                }}>
+          key={pathname}
+          initial="initialState"
+          animate="animateState"
+          exit="exitState"
+          transition={{
+            duration: 0.75,
+          }}
+          variants={{
+            initialState: {
+              opacity: 0,
+            },
+            animateState: {
+              opacity: 1,
+            },
+            exitState: {
+            },
+        }}>
+          <Navbar />
           {/* Header */}
-          <header className="bg-blue-950 pt-16 text-white text-center">
+          <header className="bg-blue-950 py-16 text-white text-center">
               <h1 className="text-5xl py-10">Get in touch</h1>
               <div className="h-0.5 mx-auto w-1/2" style={{background: '#4ba1d4' }}/>
               <h2 className="text-xl py-10">Contact us for an obligation free quote.</h2>
@@ -43,12 +45,12 @@ const Contact = () => {
           </section>
 
           {/* Contact Details */}
-          <section className="px-4 py-8 text-center text-blue-950">
+          <section className="mx-8 py-8 text-center text-blue-950 border shadow-md">
             <h2 className="text-3xl">Contact forms not your thing?</h2>
             <h3 className="text-xl pt-2">Give us a call or drop us an email.</h3>
 
             <div className="py-8 sm:px-16 items-center sm:flex justify-around">
-              <div className="py-4 flex flex-col items-center justify-center">
+              <div className="py-8 flex flex-col items-center justify-center sm:border sm:shadow-lg">
                 <FaMapMarkerAlt className="text-4xl mb-2" />
                 <h3 className="text-2xl py-1">Our Location:</h3>
                 <ul className="px-4">
@@ -57,7 +59,7 @@ const Contact = () => {
                 </ul>
               </div>
 
-              <div className="py-4 flex flex-col items-center justify-center">
+              <div className="py-8 flex flex-col items-center justify-center sm:border sm:shadow-lg">
                 <FaUser className="text-4xl mb-2" />
                 <h3 className="text-2xl py-1">Contact Details:</h3>
                 <ul className="px-4">
@@ -66,7 +68,7 @@ const Contact = () => {
                 </ul>
               </div>
 
-              <div className="py-4 flex flex-col items-center justify-center">
+              <div className="py-8 flex flex-col items-center justify-center sm:border sm:shadow-lg p-4">
                 <FaClock className="text-4xl mb-2" />
                 <h3 className="text-2xl py-1">Business Hours:</h3>
                 <ul className="px-4">
