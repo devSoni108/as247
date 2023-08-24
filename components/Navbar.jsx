@@ -3,8 +3,16 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
+import { usePathname } from "next/navigation";
+
+const links = [
+  { href: "/", text: "Home" },
+  { href: "/solutions", text: "Solutions" },
+  { href: "/contact", text: "Contact Us" },
+];
 
 const Navbar = () => {
+  const path = usePathname();
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [backgroundColor, setBackgroundColor] = useState('transparent');
   const [textColor, setTextColor] = useState('white');
@@ -55,15 +63,18 @@ const Navbar = () => {
           />
         </Link>
         <ul style={{ color: textColor }} className='hidden sm:flex space-x-4'>
-          <li className={`hover:text-sky-300 ${isScrolled ? "hover:text-gray-300" : ""}`}>
-            <Link href='/' onClick={closeMobileMenu}>Home</Link>
+        {links.map((l) => (
+          <li className="pr-2" key={l.href}>
+            <Link
+              className={`${
+                l.href === path ? "text-sky-300 font-bold" : ""
+              } text-base`}
+              href={l.href}
+            >
+              {l.text}
+            </Link>
           </li>
-          <li className={`hover:text-sky-300 ${isScrolled ? "hover:text-gray-300" : ""}`}>
-            <Link href='/solutions' onClick={closeMobileMenu}>Solutions</Link>
-          </li>
-          <li className={`hover:text-sky-300 ${isScrolled ? "hover:text-gray-300" : ""}`}>
-            <Link href='/contact' onClick={closeMobileMenu}>Contact Us</Link>
-          </li>
+        ))}
         </ul>
 
         {/* Mobile Button */}

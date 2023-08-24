@@ -8,46 +8,24 @@ import Testimonials from "@/components/Testimonials"
 import FAQ from "@/components/FAQ"
 import CTA from "@/components/CTA"
 import Footer from "@/components/Footer"
-import { motion, AnimatePresence } from 'framer-motion'
-import { usePathname } from 'next/navigation'
+import { PageWrapper } from "@/components/page-wrapper";
 
-const Welcome = () => {
-    const pathname = usePathname();
-
+const Home = () => {
     return (
-        <main className="overflow-hidden">
-            <AnimatePresence mode='wait'>
-                <motion.div
-                key={pathname}
-                initial="initialState"
-                animate="animateState"
-                exit="exitState"
-                transition={{
-                    duration: 0.75,
-                }}
-                variants={{
-                    initialState: {
-                    opacity: 0,
-                    },
-                    animateState: {
-                    opacity: 1,
-                    },
-                    exitState: {
-                    },
-                }}>
-                    <Navbar />
-                    <Hero />
-                    <Protection />
-                    <Brands />
-                    <Services />
-                    <Testimonials />
-                    <FAQ />
-                    <CTA />
-                    <Footer />
-                </motion.div>
-            </AnimatePresence>
+        <main>
+            <PageWrapper>
+                <Navbar />
+                <Hero />
+                <Protection />
+                <Brands />
+                <Services />
+                <Testimonials />
+                <FAQ />
+                <CTA />
+                <Footer />
+            </PageWrapper>
         </main>
     )
 }
 
-export default Welcome
+export default Home
