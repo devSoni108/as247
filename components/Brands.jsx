@@ -8,6 +8,7 @@ const Brands = () => {
                 <h3 className='text-2xl md:text-3xl font-semibold uppercase drop-shadow-sm'>We partner with industry leading brands</h3>
                 <p className='p-2 text-sm max-w-700 mx-auto '>AS247 Security Solutions partners with industry-trusted and renowned brands, ensuring top-quality solutions for our clients.  By aligning ourselves with these esteemed brands, we can deliver unparalleled security solutions that are built on expertise, reliability, and industry leadership.</p>
             </div>
+            
             <div className='flex justify-evenly items-center'>
                 <div>
                     <Image
@@ -97,6 +98,16 @@ const Brands = () => {
                     <Image
                         src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/no-jack.png?alt=media&token=2836c95d-020c-4d56-b850-dfbba7152de3"
                         alt='no jack'
+                        width={200}
+                        height={200}
+                        className='py-2'
+                        loading="lazy"
+                    />
+                </div>
+                <div>
+                    <Image
+                        src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/centurion.png?alt=media&token=24ea6cf9-d74d-4861-981a-eea49d4bd32c"
+                        alt='centurion'
                         width={200}
                         height={200}
                         className='py-2'

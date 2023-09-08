@@ -1,11 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import protect from '../app/assets/12.png'
 
 const Protection = () => {
   return (
     <section className='overflow-hidden relative text-center text-blue-950 py-8'>
       {/* Background Image */}
-      <div
+      {/* <div
         style={{
           position: 'absolute',
           top: 0,
@@ -23,7 +24,7 @@ const Protection = () => {
           objectPosition="center"
           loading="lazy"
         />     
-      </div>
+      </div> */}
       {/* Content */}
       <div className='px-2 sm:px-16 relative z-10 font-bold'>
         <h3 className='pb-2 text-sm md:text-lg drop-shadow-sm font-semibold'>The Protection You Need</h3>

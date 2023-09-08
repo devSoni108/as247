@@ -5,6 +5,9 @@ import { MdElectricBolt } from "react-icons/md"
 import { GiMovementSensor, GiCctvCamera } from "react-icons/gi"
 import { motion } from 'framer-motion'
 
+import Header from '../app/assets/hero.jpg'
+import Header2 from '../app/assets/AS247-hero.jpg'
+
 const Hero = () => {
   const varients = {
     hidden: { opacity: 0 },
@@ -33,7 +36,7 @@ const Hero = () => {
   return (
     <section className='overflow-hidden -mt-16'>
       <div
-        className='overflow-hidden '
+        className='overflow-hidden'
         style={{
           position: 'relative',
           display: 'flex',
@@ -42,7 +45,7 @@ const Hero = () => {
         }}
       >
         <Image
-          src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/hero.jpg?alt=media&token=495985f6-bf5b-4f8e-a2c3-d888311953b8'
+          src={Header}
           alt='Security solutions'
           width={1920}
           height={600}
@@ -50,7 +53,7 @@ const Hero = () => {
             width: '100%',
             height: '600px',
             objectFit: 'cover',
-            objectPosition: 'center',
+            objectPosition: 'top',
             zIndex: -1, // Set the image to be beneath other content
           }}
         />
