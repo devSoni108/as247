@@ -6,7 +6,6 @@ import { GiMovementSensor, GiCctvCamera } from "react-icons/gi"
 import { motion } from 'framer-motion'
 
 import Header from '../app/assets/hero.jpg'
-import Header2 from '../app/assets/AS247-hero.jpg'
 
 const Hero = () => {
   const varients = {

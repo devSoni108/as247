@@ -1,31 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import protect from '../app/assets/12.png'
 
 const Protection = () => {
   return (
     <section className='overflow-hidden relative text-center text-blue-950 py-8'>
-      {/* Background Image */}
-      {/* <div
-        style={{
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          width: '100%',
-          height: '100%',
-          zIndex: -1, // Set the background image to be behind other content
-        }}
-      >
-        <Image 
-          src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/mesh-bg.png?alt=media&token=4bbc6235-0ab1-4d9c-958e-c303b0e700e7'
-          alt='Security solutions'
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-          loading="lazy"
-        />     
-      </div> */}
-      {/* Content */}
       <div className='px-2 sm:px-16 relative z-10 font-bold'>
         <h3 className='pb-2 text-sm md:text-lg drop-shadow-sm font-semibold'>The Protection You Need</h3>
         <h4 className='text-2xl md:text-3xl font-semibold uppercase drop-shadow-sm'>We Care About Your Safety</h4>

@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Brands = () => {
     return (
-        <div className='py-8 text-center bg-blue-950 text-white'>
+        <div className='py-8 text-center bg-gradient-to-br from-blue-950 to-blue-400 from-30% text-white'>
             <div>
                 <h2 className='pb-2 text-sm md:text-lg drop-shadow-sm font-semibold'>You are in good company</h2>
                 <h3 className='text-2xl md:text-3xl font-semibold uppercase drop-shadow-sm'>We partner with industry leading brands</h3>
@@ -12,8 +12,8 @@ const Brands = () => {
             <div className='flex justify-evenly items-center'>
                 <div>
                     <Image
-                        src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/Dahua_Technology.png?alt=media&token=ac939021-fab5-4555-b558-521a7b76f926"
-                        alt='dahua'
+                        src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/nemtek-logo.png?alt=media&token=6f6ef7a9-9084-42ee-b048-dde3f7b0cc4b"
+                        alt='nemtek'
                         width={200}
                         height={200}
                         className='py-2'
@@ -22,8 +22,8 @@ const Brands = () => {
                 </div>
                 <div>
                     <Image
-                        src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/nemtek-logo.png?alt=media&token=6f6ef7a9-9084-42ee-b048-dde3f7b0cc4b"
-                        alt='nemtek'
+                        src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/Dahua_Technology.png?alt=media&token=ac939021-fab5-4555-b558-521a7b76f926"
+                        alt='dahua'
                         width={200}
                         height={200}
                         className='py-2'
@@ -54,10 +54,10 @@ const Brands = () => {
             <div className='flex justify-evenly items-center'>
                 <div>
                     <Image
-                        src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/IDS.jpg?alt=media&token=5a6f2211-4c5f-4f7a-9a35-5989436a6323"
-                        alt='inhep digital security'
-                        width={130}
-                        height={130}
+                        src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/centurion.png?alt=media&token=24ea6cf9-d74d-4861-981a-eea49d4bd32c"
+                        alt='centurion'
+                        width={200}
+                        height={200}
                         className='py-2'
                         loading="lazy"
                     />
@@ -96,18 +96,18 @@ const Brands = () => {
                 </div>
                 <div>
                     <Image
-                        src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/no-jack.png?alt=media&token=2836c95d-020c-4d56-b850-dfbba7152de3"
-                        alt='no jack'
-                        width={200}
-                        height={200}
+                        src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/IDS.jpg?alt=media&token=5a6f2211-4c5f-4f7a-9a35-5989436a6323"
+                        alt='inhep digital security'
+                        width={130}
+                        height={130}
                         className='py-2'
                         loading="lazy"
                     />
                 </div>
                 <div>
                     <Image
-                        src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/centurion.png?alt=media&token=24ea6cf9-d74d-4861-981a-eea49d4bd32c"
-                        alt='centurion'
+                        src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/no-jack.png?alt=media&token=2836c95d-020c-4d56-b850-dfbba7152de3"
+                        alt='no jack'
                         width={200}
                         height={200}
                         className='py-2'
