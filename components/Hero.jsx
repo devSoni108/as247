@@ -4,7 +4,6 @@ import { BsHouseGearFill } from "react-icons/bs"
 import { MdElectricBolt } from "react-icons/md"
 import { GiMovementSensor, GiCctvCamera } from "react-icons/gi"
 import { motion } from 'framer-motion'
-
 import Header from '../app/assets/hero.jpg'
 
 const Hero = () => {
