@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 const Services = () => {
     return (
-        <div className='p-4 text-blue-950'>
-            <div className='max-w-700 text-center mx-auto'>
+        <div className='py-8 text-blue-950'>
+            <div className='max-w-700 text-center mx-auto pb-8'>
                 <h2 className='pb-2 text-sm md:text-lg drop-shadow-sm font-semibold'>Our Services</h2>
                 <h3 className='text-2xl md:text-3xl font-semibold uppercase drop-shadow-sm'>Servicing residents and businesses across Southern Africa.</h3>
             </div>

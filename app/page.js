@@ -4,7 +4,7 @@ import Hero from "@/components/Hero"
 import Protection from "@/components/Protection"
 import Brands from "@/components/Brands"
 import Services from "@/components/Services"
-import Testimonials from "@/components/Testimonials"
+import OurWork from "@/components/OurWork";
 import FAQ from "@/components/FAQ"
 import CTA from "@/components/CTA"
 import Footer from "@/components/Footer"
@@ -19,7 +19,7 @@ const Home = () => {
                 <Protection />
                 <Brands />
                 <Services />
-                <Testimonials />
+                <OurWork />
                 <FAQ />
                 <CTA />
                 <Footer />

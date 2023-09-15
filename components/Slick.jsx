@@ -1,116 +1,92 @@
-
-import Image from "next/image";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
+import Image from 'next/image';
+
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Slick = () => {
+  
     const settings = {
-        dots: false,
+        dots: true,
+        fade: true,
         infinite: true,
-        slidesToShow: 3,
+        speed: 500,
+        slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
-        speed: 2500,
-        autoplaySpeed: 2500,
-        cssEase: "linear"
-    };
+      };
+
     return (
-        <div className="pt-4 overflow-hidden">
-            <Slider {...settings}>
-                <div className="flex justify-center items-center">
-                    <div className="flex justify-center items-center">
+        <div className='flex justify-around items-center'>
+            <div className='max-w-300 p-10 sm:max-w-500'>
+                <Slider {...settings}>
+                    <div>
                         <Image
-                            src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/Dahua_Technology.png?alt=media&token=ac939021-fab5-4555-b558-521a7b76f926"
-                            alt='dahua'
-                            width={200}
-                            height={200}
+                            src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/work1.jpg?alt=media&token=71f0a57d-e23f-47aa-8be8-98ce20c8d374'
+                            alt='South Africa security soltuions'
+                            width={500}
+                            height={500}
+                            className='p-4'
+                            
                         />
                     </div>
-                </div>
-                <div className="flex justify-center items-center">
-                    <div className="flex justify-center items-center">
+                    <div>
                         <Image
-                            src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/nemtek-logo.png?alt=media&token=6f6ef7a9-9084-42ee-b048-dde3f7b0cc4b"
-                            alt='nemtek'
-                            width={200}
-                            height={200}
+                            src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/work2.jpg?alt=media&token=2812cfad-9dbb-44a5-986a-d27eaac4accb'
+                            alt='security camera installers'
+                            width={500}
+                            height={500}
+                            className='p-4'
                         />
                     </div>
-                </div>
-                <div className="flex justify-center items-center">
-                    <div className="flex justify-center items-center">
+                    <div>
                         <Image
-                            src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/hik-vision.png?alt=media&token=9f25fcc0-2fbf-4a67-b30d-77dd4f5e282c"
-                            alt='hik vision'
-                            width={200}
-                            height={200}
+                            src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/work3.jpg?alt=media&token=03aed65f-f65d-4689-bda1-e8f61045bd38'
+                            alt='security upgrades johannesburg'
+                            width={500}
+                            height={500}
+                            className='p-4'
                         />
                     </div>
-                </div>
-                <div className="flex justify-center items-center">
-                    <div className="flex justify-center items-center">
+                    <div>
                         <Image
-                            src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/zkteco.png?alt=media&token=059e1f97-b2a3-4e31-83e2-d8aedf3f5e5c"
-                            alt='zk teco'
-                            width={200}
-                            height={200}
+                            src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/work4.jpg?alt=media&token=e2a20328-58bd-41c1-a62c-7922a1f6f680'
+                            alt='home security south africa'
+                            width={500}
+                            height={500}
+                            className='p-4'
                         />
                     </div>
-                </div>
-                <div className="flex justify-center items-center">
-                    <div className="flex justify-center items-center">
+                    <div>
                         <Image
-                            src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/IDS.jpg?alt=media&token=5a6f2211-4c5f-4f7a-9a35-5989436a6323"
-                            alt='inhep digital security'
-                            width={130}
-                            height={130}
+                            src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/work5.jpeg?alt=media&token=4bd9899d-31a4-4623-988f-6e7445a886f1'
+                            alt='electric fencing johannesburg'
+                            width={500}
+                            height={500}
+                            className='p-4'
                         />
                     </div>
-                </div>
-                <div className="flex justify-center items-center">
-                    <div className="flex justify-center items-center">
+                    <div>
                         <Image
-                            src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/paradox-security.png?alt=media&token=ed443bc9-5620-4675-9013-bc260ddde74a"
-                            alt='Paradox security'
-                            width={400}
-                            height={200}
+                            src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/work6.jpg?alt=media&token=d54b24da-12b8-4434-96bc-c40c751a2249'
+                            alt='business security south africa'
+                            width={500}
+                            height={500}
+                            className='p-4'
                         />
                     </div>
-                </div>
-                <div className="flex justify-center items-center">
-                    <div className="flex justify-center items-center">
+                    <div>
                         <Image
-                            src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/takex.png?alt=media&token=2c3fa936-5664-45b9-9076-ceeab3629890"
-                            alt='takex'
-                            width={200}
-                            height={200}
+                            src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/work7.jpg?alt=media&token=18cc6dde-ce79-4bb5-ab20-460612a1047f'
+                            alt='home security johannesburg'
+                            width={500}
+                            height={500}
+                            className='p-4'
                         />
                     </div>
-                </div>
-                <div className="flex justify-center items-center">
-                    <div className="flex justify-center items-center">
-                        <Image
-                            src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/wolf.png?alt=media&token=8f2ab41f-7951-4a60-810b-f20e59fab366"
-                            alt='wolf protection'
-                            width={120}
-                            height={120}
-                        />
-                    </div>
-                </div>
-                <div className="flex justify-center items-center">
-                    <div className="flex justify-center items-center">
-                        <Image
-                            src="https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/no-jack.png?alt=media&token=2836c95d-020c-4d56-b850-dfbba7152de3"
-                            alt='no jack'
-                            width={200}
-                            height={200}
-                        />
-                    </div>
-                </div>
-            </Slider>
+                </Slider>
+            </div>
         </div>
-    );
-  }
+    )
+}
 
 export default Slick
