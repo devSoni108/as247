@@ -58,7 +58,7 @@ const Slick = () => {
                     </div>
                     <div>
                         <Image
-                            src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/work5.jpeg?alt=media&token=4bd9899d-31a4-4623-988f-6e7445a886f1'
+                            src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/work5.jpg?alt=media&token=34ee482b-4f00-44de-b88f-cde86159014f'
                             alt='electric fencing johannesburg'
                             width={500}
                             height={500}
