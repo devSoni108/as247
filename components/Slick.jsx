@@ -17,7 +17,7 @@ const Slick = () => {
 
     return (
         <div className='flex justify-around items-center'>
-            <div className='max-w-300 p-10 sm:max-w-500'>
+            <div className='max-w-370 p-2 sm:max-w-500'>
                 <Slider {...settings}>
                     <div>
                         <Image
