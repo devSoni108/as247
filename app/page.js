@@ -12,7 +12,7 @@ import { PageWrapper } from "@/components/page-wrapper";
 
 const Home = () => {
     return (
-        <main>
+        <main className="overflow-hidden">
             <PageWrapper>
                 <Navbar />
                 <Hero />

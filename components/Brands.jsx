@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Brands = () => {
     return (
-        <div className='py-8 text-center bg-gradient-to-br from-blue-950 to-blue-400 from-30% text-white'>
+        <div className='py-8 px-4 text-center bg-gradient-to-br from-blue-950 to-blue-400 from-30% text-white'>
             <div>
                 <h2 className='pb-2 text-sm md:text-lg drop-shadow-sm font-semibold'>You are in good company</h2>
                 <h3 className='text-2xl md:text-3xl font-semibold uppercase drop-shadow-sm'>We partner with industry leading brands</h3>
