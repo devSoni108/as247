@@ -83,6 +83,51 @@ const Slick = () => {
                             className='p-4'
                         />
                     </div>
+                    <div>
+                        <Image
+                            src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/cctv.jpeg?alt=media&token=e605752a-98a7-41c0-93ec-ec7534678a0b'
+                            alt='cctv boksburg'
+                            width={500}
+                            height={500}
+                            className='p-4'
+                        />
+                    </div>
+                    <div>
+                        <Image
+                            src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/electric-gate-motor.jpeg?alt=media&token=b7f35d64-f71b-4d20-ab18-bad1904dd5b5'
+                            alt='electric gate motor boksburg'
+                            width={500}
+                            height={500}
+                            className='p-4'
+                        />
+                    </div>
+                    <div>
+                        <Image
+                            src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/electric-fencing-installation.jpeg?alt=media&token=aab9276a-06ac-4b45-a5b1-f939e8b4c25a'
+                            alt='electric fence boksburg'
+                            width={500}
+                            height={500}
+                            className='p-4'
+                        />
+                    </div>
+                    <div>
+                        <Image
+                            src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/electric-fencing-installation2.jpeg?alt=media&token=62b19873-9e3d-4948-981c-272b705e2b76'
+                            alt='electric fence east rand'
+                            width={500}
+                            height={500}
+                            className='p-4'
+                        />
+                    </div>
+                    <div>
+                        <Image
+                            src='https://firebasestorage.googleapis.com/v0/b/as247-8b5e3.appspot.com/o/electric-fencing-installation3.jpeg?alt=media&token=3faba28b-a4ed-4907-8ff0-dba670101178'
+                            alt='electric fence johannesburg'
+                            width={500}
+                            height={500}
+                            className='p-4'
+                        />
+                    </div>
                 </Slider>
             </div>
         </div>
